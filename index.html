@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="Psychelinx" />
+    <meta name="robots" content="noindex, nofollow" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <title>Psychelinx</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="controls">
+            <div class="control-group">
+                <div class="control-item">
+                    <label for="document-type">Document Type</label>
+                    <select id="document-type">
+                        <option value="terms-and-conditions">Terms and Conditions</option>
+                        <option value="privacy-policy">Privacy Policy</option>
+                    </select>
+                </div>
+                <div class="control-item">
+                    <label for="user-type">User Type</label>
+                    <select id="user-type">
+                        <option value="patient">Patient</option>
+                        <option value="clinician">Clinician</option>
+                    </select>
+                </div>
+                <div class="control-item">
+                    <label for="language">Language</label>
+                    <select id="language">
+                        <option value="it">Italiano</option>
+                        <option value="en">English</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="content" id="content">
+            <div class="loading">Loading document...</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
