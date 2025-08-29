@@ -24,7 +24,7 @@ I Suoi dati personali potrebbero essere conosciuti da dipendenti e collaboratori
 
 I Suoi dati personali potrebbero inoltre essere comunicati al professionista con cui ha in essere un percorso di cura, il quale agisce in qualità di titolare autonomo del trattamento.
 
-Si precisa che il trattamento di dati personali effettuato da Psychelinx, il cui stabilimento principale è situato nel Regno Unito, potrebbe comportare un trasferimento di dati personali verso tale Paese. Questo trasferimento è legittimo e non richiede il consenso del professionista sanitario in virtù del Regolamento di esecuzione (UE) 2021/1772 [[SL3]](#_msocom_3) della Commissione europea del 28 giugno 2021 a norma del GDPR che riconosce l’adeguata protezione dei dati personali da parte del Regno Unito.
+Si precisa che il trattamento di dati personali effettuato da Psychelinx, il cui stabilimento principale è situato nel Regno Unito, potrebbe comportare un trasferimento di dati personali verso tale Paese. Questo trasferimento è legittimo e non richiede il consenso del professionista sanitario in virtù del Regolamento di esecuzione (UE) 2021/1772 \[SL3\] della Commissione europea del 28 giugno 2021 a norma del GDPR che riconosce l’adeguata protezione dei dati personali da parte del Regno Unito.
 
 _Periodo di conservazione dei dati personali_
 
