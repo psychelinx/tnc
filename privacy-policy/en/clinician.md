@@ -1,30 +1,51 @@
-**Informazioni sul trattamento di dati personali _ex_ art. 13 GDPR**        
+**Privacy Notice – Information on the Processing of Personal Data (Article 13 UK GDPR)**
 
-Ai sensi dell’art. 13 del Reg. (UE) 2016/679 (di seguito, per brevità, “GDPR”), Psychelinx Ltd. desidera informarLa delle finalità e delle modalità del trattamento dei Suoi dati personali quando utilizza l’_app_ **Psychelinx**.
+In accordance with Article 13 of the UK General Data Protection Regulation (“UK GDPR”), Psychelinx Ltd. is providing you with this notice explaining how we collect, use, and protect your personal data when you use the **Psychelinx** app.
 
-_Titolare del trattamento e il suo Rappresentante_
+Through the app, your personal data may be processed both by Psychelinx and by the healthcare professional supporting you in your therapeutic pathway.
+- Psychelinx Ltd. provides this notice regarding the processing activities it carries out as independent Data Controller.
+- The healthcare professional, as a separate and independent Data Controller, is responsible for their own processing activities. You will receive a separate privacy notice from your professional covering that processing.
 
-Titolare del trattamento di dati personali è Psychelinx Ltd. con sede a Londra, 86-90 Paul Street, EC2A 4NE, Regno Unito, ed è contattabile al seguente recapito: [info@psychelinx.com](mailto:info@psychelinx.com) .
+*Data Controller*
 
-_Finalità e base giuridica del trattamento di dati personali_
+The Data Controller is Psychelinx Ltd., registered office at 86–90 Paul Street, London EC2A 4NE, United Kingdom, and can be contacted at the following address: [info@psychelinx.com](mailto:info@psychelinx.com).
 
-I dati personali del professionista sanitario sono trattati dal Titolare al fine di consentirgli l’iscrizione e l’utilizzo dell’_app_ Psychelinx, ai sensi dell’art. 6, 1° comma, lett. b) del GDPR.
+*Purposes and Legal Basis for Processing*
 
-_Periodo di conservazione dei dati personali_
+Psychelinx processes your personal data in order to create and manage your account for use of the app. The lawful basis for this processing is Article 6(1)(b) UK GDPR – processing necessary for the performance of a contract.
 
-I dati personali del professionista sanitario sono trattati fino a che il professionista utilizzi l’_app_ e, in generale, si avvalga dei servizi prestati dal Titolare e, in ogni caso, saranno cancellati o anonimizzati dopo 6 mesi di perdurante inattività, intesa come mancato accesso all’_app_. Tale attività di conservazione e di cancellazione (o anonimizzazione) dei dati effettuata dal titolare riguarda solamente i dati personali raccolti per la registrazione.
+Psychelinx, acting as an independent Data Controller, will never process your health data for diagnosis or treatment purposes. Such activities are the sole responsibility of your healthcare professional, who may use the app to support them. Health data are hosted within the app by Psychelinx as a data processor on behalf of the healthcare professional.
 
-_Destinatari dei dati personali_
+*Personal Data Processed*
 
-I dati personali del professionista sanitario potrebbero essere conosciuti da dipendenti e collaboratori del Titolare debitamente designati e autorizzati al trattamento dei dati personali ai sensi dell’art. 29 del GDPR, nonché dal fornitore del servizio di posta elettronica nominato responsabile del trattamento di dati personali ai sensi dell’art. 28 del GDPR.
+For the purpose of account creation and management, Psychelinx only processes your email address and basic identity details.
 
-Si precisa che il trattamento di dati personali effettuato da Psychelinx, il cui stabilimento principale è situato nel Regno Unito, potrebbe comportare un trasferimento di dati personali verso tale Paese. Questo trasferimento è legittimo e non richiede il consenso del professionista sanitario in virtù del Regolamento di esecuzione (UE) 2021/1772 della Commissione europea del 28 giugno 2021 a norma del GDPR che riconosce l’adeguata protezione dei dati personali da parte del Regno Unito.
+*Data Sharing*
 
-_Diritti dell’interessato_
+Your personal data may be accessed by employees and contractors of Psychelinx, duly appointed and authorised to process personal data in accordance with the Article 29 GDPR. In addition, our email service provider acts as a data processor on the Controller's behalf under Article 28 UK GDPR.
 
-Fatte salve le limitazioni all’esercizio dei diritti degli interessati di cui agli artt. 2-_undecies_ e 2-_duodecies_ del d.lgs. 196/2003 s.m.i. (“Codice in materia di protezione dei dati personali”), il professionista può esercitare i diritti riconosciuti ai sensi e nei limiti degli artt. 15-21 del GDPR, tra cui il diritto di chiedere al titolare l’accesso ai propri dati personali, la rettifica o la cancellazione degli stessi, nonché la limitazione del trattamento dei dati che lo riguarda, l’opposizione al trattamento e la portabilità dei propri dati.
+Your personal data may also be shared with the healthcare professional supporting you, who acts as an independent Data Controller.
 
-Ove espresso, il professionista ha inoltre il diritto di revocare il proprio consenso al trattamento dei dati, in qualsiasi momento, senza che ciò pregiudichi la liceità del trattamento basata sul consenso prima della revoca.
+As Psychelinx is established in the United Kingdom, personal data may be stored or processed here. This transfer is lawful and does not require your consent; the European Commission has recognised the UK as providing an adequate level of protection for personal data (Commission Implementing Decision (EU) 2021/1772 of 28 June 2021 under the GDPR).
 
-Infine, il professionista ha il diritto di proporre reclamo a un’autorità di controllo competente, ai sensi dell’art. 77, 1° comma del Regolamento, che in Italia è il “Garante per la protezione dei dati personali”. Il reclamo può essere presentato anche a un’autorità di controllo diversa da quella italiana, nel caso in cui tale autorità di controllo sia quella dello Stato UE in cui il professionista abitualmente risiede o lavora, oppure quella del luogo in cui si è verificata la presunta violazione.  
-Il professionista può esercitare i diritti sopra indicati inviando una comunicazione scritta al titolare o al suo rappresentante utilizzando i recapiti indicati sopra.
+*Data Retention*
+
+Personal data collected for registration and account management will be retained and processed for as long as you use the app and, in general, avail of the services provided by the Controller.  If your account remains inactive  for 6 consecutive months, your registration data will be deleted or anonymised. This retention and deletion process applies only to the registration data collected by Psychelinx.
+
+Requests relating to the deletion of health data processed by your healthcare professional for diagnosis or treatment must be directed to that professional, as they act as an independent Data Controller.
+
+*Your Rights*
+
+Under Articles 15–21 UK GDPR, you have the following rights:
+- Access – to obtain confirmation of whether we process your data and to receive a copy.
+- Rectification – to correct inaccurate or incomplete data.
+- Erasure – to request deletion of your data in certain circumstances.
+- Restriction – to request that we limit use of your data.
+- Objection – to object to processing on certain grounds.
+- Data portability – to receive your data in a structured, commonly used, machine-readable format and to transmit it to another controller.
+
+Where processing is based on consent, you may withdraw your consent at any time. Withdrawal does not affect the lawfulness of processing carried out before consent was withdrawn.
+
+You also have the right to lodge a complaint with a competent supervisory authority, pursuant to Article 77(1) GDPR. In the UK, this is the Information Commissioner’s Office (ICO). You may also complain to another supervisory authority in the EU if you live or work there, or if the alleged infringement occurred in that Member State.
+
+You may exercise your rights by contacting Psychelinx in writing using the details provided above.
