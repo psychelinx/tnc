@@ -10,6 +10,8 @@ _Finalità e base giuridica del trattamento di dati personali_
 
 I dati personali del professionista sanitario sono trattati dal Titolare al fine di consentirgli l’iscrizione e l’utilizzo dell’_app_ Psychelinx, ai sensi dell’art. 6, 1° comma, lett. b) del GDPR.
 
+I dati personali potranno poi essere raccolti e trattati per finalità amministrative e contabili connesse alla fatturazione dei servizi forniti dal Titolare e, dunque, affinché il Titolare possa adempiere agli obblighi che la normativa in materia fiscale e contabile gli impone, ai sensi dell’art. 6, 1° comma, lett. c) del GDPR.
+
 _Periodo di conservazione dei dati personali_
 
 I dati personali del professionista sanitario sono trattati fino a che il professionista utilizzi l’_app_ e, in generale, si avvalga dei servizi prestati dal Titolare e, in ogni caso, saranno cancellati o anonimizzati dopo 6 mesi di perdurante inattività, intesa come mancato accesso all’_app_. Tale attività di conservazione e di cancellazione (o anonimizzazione) dei dati effettuata dal titolare riguarda solamente i dati personali raccolti per la registrazione.
