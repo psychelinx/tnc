@@ -1,3 +1,4 @@
+-
 **Informazioni sul trattamento di dati personali _ex_ art. 13 GDPR**       
 
 Ai sensi dell’art. 13 del Reg. (UE) 2016/679 (di seguito, per brevità, “GDPR”), Psychelinx Ltd. desidera informarLa delle finalità e delle modalità del trattamento dei Suoi dati personali quando utilizza l’_app_ **Psychelinx**.
