@@ -4,7 +4,7 @@ Ai sensi dell’art. 13 del Reg. (UE) 2016/679 (di seguito, per brevità, “GDP
 
 _Titolare del trattamento e il suo Rappresentante_
 
-Titolare del trattamento di dati personali è Psychelinx Ltd. con sede a Londra, 86-90 Paul Street, EC2A 4NE, Regno Unito, ed è contattabile al seguente recapito: [info@psychelinx.com](mailto:info@psychelinx.com) .
+Titolare del trattamento di dati personali è Psychelinx Ltd. con sede a Londra, 86-90 Paul Street, EC2A 4NE, Regno Unito, ed è contattabile al seguente recapito: [info@psychelinx.com](mailto:info@psychelinx.com) .--
 
 _Finalità e base giuridica del trattamento di dati personali_
 
