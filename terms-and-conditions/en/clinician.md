@@ -7,7 +7,7 @@ These Terms and Conditions of Use constitute the contract between the Healthcare
 The Preamble forms an integral part of these Terms and Conditions of Use.
 
 3. *Formation of the Contract with the Professional*
-This Contract shall be deemed concluded at the moment Psychelinx Ltd. acknowledges receipt of the Professional’s registration confirmation by sending a confirmation notice to the Professional.
+This contract shall be deemed concluded at the moment when Psychelinx Ltd. acknowledges receipt of the payment confirmation made by the professional for the purchase of the app subscription, either by sending a specific notification to the professional or through the relevant app store.
 
 4. *Definitions*
 For the purposes of these Terms and Conditions of Use of the “Psychelinx” app, the following definitions apply:
@@ -48,10 +48,13 @@ The Professional is responsible for all activities carried out through their acc
 Any misuse of credentials due to the Professional’s negligence releases the Provider from all liability.
 
 9. *Service costs*
-The Provider does not require the Professional to pay any fee for the use of the services. However, the Professional shall bear any costs of their Internet connection.
+Use of the app is subject to the subscription of a paid plan, which may be annual, quarterly or monthly and may have different features depending on the plan selected.
+The applicable fees, plus VAT and any other statutory charges, are those indicated on the website https://www.psychelinx.com/pages/pricing-clinician and/or made available through the relevant app store at the time the subscription is purchased. Where the app is distributed via an app store, store service fees or commissions may apply, over which the provider has no control or responsibility. For further details, users are invited to review the terms and conditions applied by the relevant app store. Subscription payments shall be made in advance and in Pound (GBP), using the payment methods made available by the app store at the time of subscription. Any promotional offers published by the provider on the app store or within the app shall remain applicable under the terms specified therein.
+Any costs related to internet connectivity and data transmission required to use the app shall remain the sole responsibility of the professional.
 
 10. *Term of the Contract*
-This Contract shall take effect from the date the account is created and shall remain in force until terminated by either the Professional or the Provider as described below.
+This contract shall be effective for a period corresponding to the duration of the subscription purchased, starting from the moment when the provider, including via the relevant app store, confirms receipt of payment for the subscription.
+Upon expiry of the above period, the subscription shall automatically renew, with the applicable fee charged automatically, unless the professional terminates, suspends or cancels the subscription directly through the app store from which the app was purchased. Professionals are therefore invited to review the terms and conditions of the relevant app store.
 
 11. *Termination of the Contract by the Provider*
 The Provider may terminate this Contract at any time by giving the Professional 15 (fifteen) days’ prior notice by e-mail to the address provided during registration, unless termination is for just cause as described below, in which case termination shall take immediate effect.
@@ -59,7 +62,8 @@ The Provider may terminate this Contract with immediate effect and without prior
 (a) if the Professional breaches any obligations under this Contract;
 (b) if the Professional violates applicable law;
 (c) in any case of non-performance by the Professional;
-(d) to comply with a request from public authorities. 
+(d) to comply with a request from public authorities.
+In the event of termination of the contract not attributable to the professional, the provider shall refund the portion of the fees paid proportionate to the remaining term of the contract.
 
 12. *Disclaimer of liability*
 The Professional acknowledges that the Provider is neither a healthcare professional nor a healthcare facility and therefore does not perform healthcare activities, acting solely as a technical service provider and intermediary.
@@ -88,8 +92,8 @@ The Professional is granted a personal, non-exclusive, non-assignable and non-tr
 The Professional is prohibited from reproducing, copying, modifying, distributing, selling, licensing, reverse engineering, translating into other languages, extracting the source code or creating derivative versions of the App or any part thereof, unless prior written consent has been obtained from the Provider.
 
 16. *Information pursuant to the Electronic Commerce (EC Directive) Regulations 2002*
-Pursuant to Regulation 9 of the Electronic Commerce (EC Directive) Regulations 2002, the Provider informs the Professional that this Contract shall only be concluded upon completion of the following technical steps by the Professional: (a) entering their e-mail address and creating a password that complies with the Provider’s security requirements; (b) reviewing and accepting these Terms and Conditions by clicking the relevant box; (c) reviewing the information on the processing of personal data by ticking the relevant box; (d) entering, on the designated App screen, the confirmation code contained in the e-mail sent by the Provider following registration.
-The Contract shall be deemed concluded once the Provider acknowledges receipt of the Professional’s registration confirmation.
+Pursuant to Regulation 9 of the Electronic Commerce (EC Directive) Regulations 2002, the Provider informs the Professional that this Contract shall only be concluded upon completion of the following technical steps by the Professional: (a) entering their e-mail address and creating a password that complies with the Provider’s security requirements; (b) reviewing and accepting these Terms and Conditions by clicking the relevant box; (c) reviewing the information on the processing of personal data by ticking the relevant box; (d) entering, on the designated App screen, the confirmation code contained in the e-mail sent by the Provider following registration; (e) select the subscription plan and the payment method from the available options and proceed with payment.
+The contract shall be deemed concluded at the moment when the provider acknowledges receipt of confirmation of the payment made by the professional.
 The Provider will send the Professional a copy of these Terms and Conditions and of the Privacy Notice to the e-mail address provided during registration.
 The Provider allows the Professional to identify and correct any data entry errors before submitting the registration request, by displaying a summary screen of the data, which can be amended as necessary prior to final submission.
 The Contract is available in Italian and English.
@@ -100,14 +104,16 @@ The provision of the services is governed by these Terms and Conditions and by t
 The above provision shall not apply if the laws of the country where the Professional resides require the application of different laws or jurisdiction, and such requirement cannot lawfully be excluded by contract.
 
 18. Dispute Resolution
-If the Professional wishes to make a complaint against the Provider, they may do so by writing to the following contact address: info@psyhcelinx.com .
+Should the professional wish to submit a complaint to the provider, they may do so by writing to the certified email address: psychelinx@pec.it .
 This does not affect the right to bring proceedings before the courts. In such case, any dispute arising out of or in connection with this Agreement, including those relating to its validity, interpretation, performance or non-performance, shall be subject to the exclusive jurisdiction of the courts of England and Wales.
 
 19. *Unilateral Amendments by the Provider*
-Psychelinx Ltd. reserves the right to update or otherwise amend these Terms and Conditions in the future. The Provider will inform Professionals of any changes by means of an in-app notice or by e-mail sent to the address provided at registration or subsequently updated. The date of the most recent revision will appear at the bottom of this page of the Terms and Conditions of Use, and any amendments shall take effect from the date of publication.
-Such amendments will be deemed accepted if the Professional continues to use the App. The Professional may, at any time, request deletion of their account and discontinue use of the Provider’s services through the App
+Psychelinx Ltd. reserves the right to update or otherwise modify these Terms and Conditions from time to time. The provider shall inform professionals of any changes by means of a notice within the app or by sending an email to the email address provided by the professional, at least thirty (30) days prior to the date on which such changes enter into force. Where the professional does not agree with the amended terms, they may withdraw from this contract with immediate effect.
+Where the contractual change concerns a modification of the subscription fee, the professional shall have the right to disable automatic renewal, with the consequence that they will no longer be able to use Psychelinx services upon expiry of the then-current subscription period. In such case, the withdrawal shall not affect subscriptions already purchased prior to the withdrawal, which shall remain valid until full performance of the parties’ respective obligations in relation to those subscriptions.
+If the professional does not exercise their right of withdrawal within thirty (30) days prior to the effective date of the new contractual terms, such terms shall be deemed accepted as updated or amended.
+The date of the most recent revision shall be indicated at the bottom of this Terms and Conditions of Use page, and any changes shall take effect from the date of publication.
 
-Last update: 14th September 2025
+Last update: 3rd February 2026
 
 
 
