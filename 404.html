@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-t/98y7FDHwKTGt4wfXb7wXaOd6oxIgSq3QDQ77xMmuk='">
+    <meta name="robots" content="noindex, nofollow" />
+    <title>Psychelinx</title>
+</head>
+<body>
+    <noscript><a href="https://www.psychelinx.com/">www.psychelinx.com</a></noscript>
+    <script>
+// 404 handler (DESIGN.md 6.5). The apex domain moves from Shopify to this site
+// for app links only, so every other path goes back to the main website.
+// The script is inline (allowed by its CSP hash) so that it loads at any 404
+// path, on psychelinx.com and on the project site psychelinx.github.io/tnc/.
+(function () {
+    var SITE = 'https://www.psychelinx.com';
+    var loc = window.location;
+    var path = loc.pathname;
+    if (/\.github\.io$/.test(loc.hostname)) {
+        // Project site: remove the repository segment ("/tnc").
+        path = path.replace(/^\/[^\/]*/, '') || '/';
+    }
+    if (path.indexOf('/code/') === 0) {
+        // The app is not installed (installed apps open /code/* links directly).
+        loc.replace(SITE + '/pages/download-universal');
+    } else {
+        loc.replace(SITE + path + loc.search + loc.hash);
+    }
+})();
+</script>
+</body>
+</html>

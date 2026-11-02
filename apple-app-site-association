@@ -1,0 +1,12 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["5JTV2V8Y39.com.psychelinx.app"],
+        "components": [
+          { "/": "/code/*", "comment": "Clinician-patient pairing code links." }
+        ]
+      }
+    ]
+  }
+}
