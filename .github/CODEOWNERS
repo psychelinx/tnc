@@ -1,5 +1,10 @@
 # Association files control which apps open psychelinx.com links.
-# Replace the placeholder with the real engineering owners before merge.
+# The workflow and the check script guard those files, so they have the same owners.
+# Replace the placeholder with the real engineering owners (three at most) before merge,
+# and make the "check" job a required status check in the branch protection of main.
 /.well-known/ @psychelinx/engineering-owners
 /apple-app-site-association @psychelinx/engineering-owners
 /.github/CODEOWNERS @psychelinx/engineering-owners
+/.github/workflows/ @psychelinx/engineering-owners
+/scripts/check_well_known.py @psychelinx/engineering-owners
+/tests/check_well_known_test.py @psychelinx/engineering-owners
