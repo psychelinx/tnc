@@ -1,0 +1,18 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.psychelinx.android",
+      "sha256_cert_fingerprints": ["<PLAY_APP_SIGNING_KEY_SHA256>"]
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.psychelinx.android.debug",
+      "sha256_cert_fingerprints": ["<SHARED_DEBUG_KEYSTORE_SHA256>"]
+    }
+  }
+]

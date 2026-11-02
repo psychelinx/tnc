@@ -1,0 +1,5 @@
+# Association files control which apps open psychelinx.com links.
+# Replace the placeholder with the real engineering owners before merge.
+/.well-known/ @psychelinx/engineering-owners
+/apple-app-site-association @psychelinx/engineering-owners
+/.github/CODEOWNERS @psychelinx/engineering-owners
