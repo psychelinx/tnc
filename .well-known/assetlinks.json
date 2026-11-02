@@ -4,7 +4,7 @@
     "target": {
       "namespace": "android_app",
       "package_name": "com.psychelinx.android",
-      "sha256_cert_fingerprints": ["<PLAY_APP_SIGNING_KEY_SHA256>"]
+      "sha256_cert_fingerprints": ["21:E4:02:3E:2B:CE:1E:9E:13:62:D9:D0:D9:02:12:D8:5C:AC:78:8E:3E:AE:09:FC:B6:9F:A1:76:FF:23:4C:91"]
     }
   },
   {
@@ -12,7 +12,7 @@
     "target": {
       "namespace": "android_app",
       "package_name": "com.psychelinx.android.debug",
-      "sha256_cert_fingerprints": ["<SHARED_DEBUG_KEYSTORE_SHA256>"]
+      "sha256_cert_fingerprints": ["5D:EA:9C:CB:79:58:8A:4E:1B:79:48:0B:EC:5E:E6:3A:34:CC:84:7B:52:70:87:40:7C:B2:7A:A5:E8:58:1E:14"]
     }
   }
 ]

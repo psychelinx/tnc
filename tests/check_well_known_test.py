@@ -34,8 +34,14 @@ class CheckWellKnown(unittest.TestCase):
     def test_valid_files_pass(self):
         self.assertEqual(c.check(self.tmp), [])
 
-    def test_committed_placeholders_fail(self):
-        self.assertTrue(any("placeholder" in e for e in c.check(REPO)))
+    def test_committed_files_pass(self):
+        self.assertEqual(c.check(REPO), [])
+
+    def test_placeholders_fail(self):
+        links = json.loads((self.tmp / ".well-known/assetlinks.json").read_text())
+        links[0]["target"]["sha256_cert_fingerprints"] = ["<PLAY_APP_SIGNING_KEY_SHA256>"]
+        self.write_links(links)
+        self.assertTrue(any("placeholder" in e for e in c.check(self.tmp)))
 
     def test_invalid_json_fails(self):
         (self.tmp / ".well-known/assetlinks.json").write_text("[")
