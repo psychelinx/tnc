@@ -30,6 +30,14 @@ async function documentExists(path) {
     }
 }
 
+// Without a ?doc= parameter this page is not a legal-document request.
+// Send the visitor to the main website instead (DESIGN.md 6.5).
+const HOME_URL = 'https://www.psychelinx.com/';
+const hasDocParam = new URLSearchParams(window.location.search).has('doc');
+if (!hasDocParam) {
+    window.location.replace(HOME_URL);
+}
+
 // Get URL parameters
 function getUrlParams() {
     const params = new URLSearchParams(window.location.search);
@@ -145,6 +153,7 @@ document.getElementById('language').addEventListener('change', () => {
 
 // Initialize on page load
 document.addEventListener('DOMContentLoaded', () => {
+    if (!hasDocParam) return;
     setInitialValues();
     loadDocument();
 });
