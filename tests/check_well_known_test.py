@@ -62,6 +62,59 @@ class CheckWellKnown(unittest.TestCase):
         self.write_links(links)
         self.assertTrue(any("unexpected package" in e for e in c.check(self.tmp)))
 
+    def write_aasa(self, aasa):
+        for rel in c.AASA:
+            (self.tmp / rel).write_text(json.dumps(aasa))
+
+    def aasa(self):
+        return json.loads((self.tmp / c.AASA[0]).read_text())
+
+    def test_widened_applinks_path_fails(self):
+        for widened in ("*", "/*", "/code/*/../*"):
+            aasa = self.aasa()
+            aasa["applinks"]["details"][0]["components"].append({"/": widened})
+            self.write_aasa(aasa)
+            self.assertTrue(any("components" in e for e in c.check(self.tmp)), widened)
+
+    def test_replaced_applinks_path_fails(self):
+        aasa = self.aasa()
+        aasa["applinks"]["details"][0]["components"] = [{"/": "*"}]
+        self.write_aasa(aasa)
+        self.assertTrue(any("components" in e for e in c.check(self.tmp)))
+
+    def test_query_or_exclude_component_fails(self):
+        aasa = self.aasa()
+        aasa["applinks"]["details"][0]["components"][0]["?"] = {"doc": "*"}
+        self.write_aasa(aasa)
+        self.assertTrue(any("components" in e for e in c.check(self.tmp)))
+
+    def test_wrong_app_id_fails(self):
+        aasa = self.aasa()
+        aasa["applinks"]["details"][0]["appIDs"] = ["ABCDE12345.com.example"]
+        self.write_aasa(aasa)
+        self.assertTrue(any("appIDs" in e for e in c.check(self.tmp)))
+
+    def test_second_details_entry_fails(self):
+        aasa = self.aasa()
+        aasa["applinks"]["details"].append(dict(aasa["applinks"]["details"][0]))
+        self.write_aasa(aasa)
+        self.assertTrue(any("exactly one entry" in e for e in c.check(self.tmp)))
+
+    def test_missing_applinks_fails(self):
+        self.write_aasa({"appclips": {}})
+        self.assertTrue(any("applinks only" in e for e in c.check(self.tmp)))
+
+    def test_missing_package_fails(self):
+        links = json.loads((self.tmp / ".well-known/assetlinks.json").read_text())
+        self.write_links(links[:1])
+        self.assertTrue(any("packages must be exactly" in e for e in c.check(self.tmp)))
+
+    def test_duplicate_package_fails(self):
+        links = json.loads((self.tmp / ".well-known/assetlinks.json").read_text())
+        links[1]["target"]["package_name"] = links[0]["target"]["package_name"]
+        self.write_links(links)
+        self.assertTrue(any("packages must be exactly" in e for e in c.check(self.tmp)))
+
     def test_artifact_must_contain_well_known(self):
         tar_path = self.tmp / "artifact.tar"
         with tarfile.open(tar_path, "w") as tar:
