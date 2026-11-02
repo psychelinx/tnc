@@ -6,6 +6,9 @@ on:
   push:
     branches: ["main"]
 
+  # Checks run on pull requests; deploy is skipped for them
+  pull_request:
+
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
@@ -22,8 +25,28 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  # Validate the app-link association files and the page scripts (DESIGN.md 6.5)
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Check association files
+        run: python3 scripts/check_well_known.py
+      - name: JSON validity
+        run: |
+          python3 -m json.tool .well-known/apple-app-site-association > /dev/null
+          python3 -m json.tool apple-app-site-association > /dev/null
+          python3 -m json.tool .well-known/assetlinks.json > /dev/null
+      - name: Unit tests
+        run: |
+          python3 -m unittest discover -s tests -p '*_test.py'
+          node --test tests/
+
   # Single deploy job since we're just deploying
   deploy:
+    if: github.event_name != 'pull_request'
+    needs: check
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -38,6 +61,8 @@ jobs:
         with:
           # Upload entire repository
           path: '.'
+      - name: Check that the artifact contains .well-known
+        run: python3 scripts/check_well_known.py . --artifact "$RUNNER_TEMP/artifact.tar"
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
